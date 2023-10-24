@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: black;
+}
+
+.alinhamento {
+    display: flex;
+    justify-content: space-between;
+    padding: 22px 0;
+}
+
+.alinhamento h1 {
+    color: white;
+    font-size: 35px;
+}
+
+.alinhamento ul {
+    display: flex;
+    align-items: center;
+}
+
+.alinhamento a {
+    color: rgb(206, 206, 206);
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.alinhamento a:hover {
+    color: white;
+}
+
+.sobre-nos-button {
+    margin-right: 30px;
+}
+
+
+
+
+.alinhamento-imagens img {
+    margin: 30px 0;
+    height: 430px;
+}
+
+.alinhamento-imagens ul {
+    display: flex;
+}
+
+.alinhamento-imagens li {
+    list-style: none;
+}
+
+
+
+.alinhamento-sobre-nos {
+    display: flex;
+    margin: 30px 0;
+}
+
+.alinhamento-sobre-nos h1 {
+    font-size: 30px;
+    margin: 20px 0;
+    text-decoration: underline;
+}
+
+.alinhamento-sobre-nos p {
+    font-size: 20px;
+    margin: 5px 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+.alinhamento-contato {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    height: 40px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form button {
+    background-color: black;
+    color: white1;
+}
+
+form textarea {
+    resize: none;
+    height: 150px;
+}
+
+.titulo h1 {
+    margin-bottom: 10px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.alinhamento-contato h1 {
+    font-size: 18px;
+}
+
+.alinhamento-contato img {
+    height: 25px;
+}
+
+.alinhamento-contato li {
+    list-style: none;
+}
+
+
+
+
+
+footer {
+    background-color: black;
+    padding: 18px 0;
+    margin-top: 25px;
+}
+
+.direitos p { 
+    color: white;
+}
